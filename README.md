@@ -1,3 +1,10 @@
+# NgrxDevtoolsDemo
+
+* [Slides](https://goo.gl/MS4qZB)
+* [Redux Devtools Extension (Chrome)](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+* [@ngrx/store-devtools Instrumentation](https://github.com/ngrx/store-devtools)
+* [Augury Extension (Chrome)](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd?hl=en)
+
 # @ngrx
 
 Reactive libraries for Angular

@@ -23,7 +23,6 @@ import { schema } from './db';
 import { CustomRouterStateSerializer } from './shared/utils';
 
 import { AppComponent } from './core/containers/app';
-import { environment } from '../environments/environment';
 
 @NgModule({
   imports: [
@@ -57,11 +56,9 @@ import { environment } from '../environments/environment';
      *
      * See: https://github.com/zalmoxisus/redux-devtools-extension
      */
-    !environment.production
-      ? StoreDevtoolsModule.instrument({
-          name: 'NgRx Book Store DevTools',
-        })
-      : [],
+    StoreDevtoolsModule.instrument({
+      name: 'NgRx Book Store DevTools',
+    }),
 
     /**
      * EffectsModule.forRoot() is imported once in the root module and
